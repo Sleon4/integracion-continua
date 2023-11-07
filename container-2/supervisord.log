@@ -1,0 +1,8 @@
+2023-11-07 00:24:37,355 INFO Set uid to user 0 succeeded
+2023-11-07 00:24:37,357 INFO supervisord started with pid 8
+2023-11-07 00:24:38,359 INFO spawned: 'web-server' with pid 9
+2023-11-07 00:24:39,384 INFO success: web-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-11-07 00:24:51,179 INFO Set uid to user 0 succeeded
+2023-11-07 00:24:51,180 INFO supervisord started with pid 8
+2023-11-07 00:24:52,182 INFO spawned: 'web-server' with pid 9
+2023-11-07 00:24:53,196 INFO success: web-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
