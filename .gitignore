@@ -1,1 +1,4 @@
 /container-2/vendor/
+/container-2/supervisord.log
+/container-2/supervisord.pid
+/container-2/web-server.log
