@@ -6,17 +6,16 @@ namespace App\Model;
 
 class Users
 {
-	private ?int $idusers;
-	private ?string $users_name;
-	private ?string $users_last_name;
-
+	private ?int $idusers = null;
+	private ?string $users_name = null;
+	private ?string $users_last_name = null;
 
 	/**
 	 * @param $idusers   
 	 * @param $users_name   
 	 * @param $users_last_name   
 	 */
-	public function __construct(?int $idusers, ?string $users_name, ?string $users_last_name)
+	public function __construct(?int $idusers = null, ?string $users_name = null, ?string $users_last_name = null)
 	{
 		$this->idusers = $idusers;
 		$this->users_name = $users_name;
