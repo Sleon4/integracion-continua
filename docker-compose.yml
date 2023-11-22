@@ -44,7 +44,7 @@ services:
     networks:
       - lion
   jenkins:
-    image: jenkins/jenkins
+    image: jenkins-ic
     container_name: integracion-continua-jenkins
     restart: unless-stopped
     ports:
